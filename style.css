@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: grey;
+  background-image: url(https://i.pinimg.com/236x/e3/f8/be/e3f8be0c0c7c9db41cf36d9a20203000.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: black;
+  box-shadow: 0 0 0 green;
+  border-radius: 8px;
+  color: white;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #3910cf;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 5px 0;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: hsl(221, 61%, 33%);
+}
+
+.budget-container {
+  text-align: center;
+}
+
+#entries {
+  list-style: none;
+  padding: 0;
+}
+
+#entries li {
+  display: flex;
+  justify-content: space-between;
+  background-color: #181818c2;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  text-decoration-color: #fcf7f7;
+}
+
+#entries li.income {
+  border-left: 5px solid #28a745;
+  color: white;
+  background: brown;
+}
+
+#entries li.expense {
+  border-left: 5px solid #dc3545;
+  background-color: #3910cf;
+  color: white;
+}
+
+.entry-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.entry-actions button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  color: #ff0800;
+}
+
+.entry-actions button:hover {
+  text-decoration: underline;
+  background-color: #3910cf;
+
+}

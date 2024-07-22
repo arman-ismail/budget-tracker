@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "id": "2e79",
+      "type": "income",
+      "description": "salary",
+      "amount": 50000
+    },
+    {
+      "id": "f8fb",
+      "type": "expense",
+      "description": "rent",
+      "amount": 20000
+    }
+  ]
+}
